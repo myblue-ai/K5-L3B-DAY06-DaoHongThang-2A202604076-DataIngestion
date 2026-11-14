@@ -1,0 +1,20 @@
+{
+  "A": {
+    "coherence": "0.80/2 (n=10)",
+    "metadata_ok": "15/15",
+    "filter_compliance_test": "0/1",
+    "grounding": "0:1 1:0 2:4 | TB 1.60/2 (n=5)"
+  },
+  "B": {
+    "coherence": "1.90/2 (n=10)",
+    "metadata_ok": "15/15",
+    "filter_compliance_test": "0/1",
+    "grounding": "0:1 1:0 2:4 | TB 1.60/2 (n=5)"
+  },
+  "C": {
+    "coherence": "1.90/2 (n=10)",
+    "metadata_ok": "15/15",
+    "filter_compliance_test": "1/1",
+    "grounding": "0:1 1:0 2:4 | TB 1.60/2 (n=5)"
+  }
+}

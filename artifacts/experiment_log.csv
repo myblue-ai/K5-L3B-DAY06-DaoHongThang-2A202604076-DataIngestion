@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size (ký tự trong từng trang),500,50,"document_id, source, page, chapter, chapter_title, char_start",không,intfloat/multilingual-e5-small (local; 384 chiều; prefix query:/passage:; cosine; exact search pgvector),"Baseline: cắt cố định dễ làm đứt câu/ý nên evidence có thể bị tách qua 2 chunk, Hit@1 thấp hơn B",8/15,12/15,3/5,4/5,"289 chunk; ingest 9.65s CPU; 2 câu dev nghi evidence bị tách (q03, q11); chi phí 0 USD"
+B,by_paragraph (gom đoạn PyMuPDF block; đoạn dài tách theo câu),max 1000,0,"document_id, source, page, chapter, chapter_title, char_start",không,intfloat/multilingual-e5-small (giống A),"Chunk theo đoạn giữ trọn ý nên Hit@1/Hit@3 cao hơn A; ít chunk hơn",12/15,14/15,4/5,4/5,"168 chunk; ingest 9.26s CPU; chỉ khác A ở cách chunk"
+C,giống B (dùng lại index B),max 1000,0,giống B,"metadata @> {chapter} chỉ khi câu hỏi có filter (4 câu: q05,q14,q15,q18)",intfloat/multilingual-e5-small (giống A),"Lọc theo chương loại chunk lạc chương ở câu có filter; không đổi các câu không filter",12/15,14/15,4/5,4/5,"Chỉ khác B ở filter; tuân thủ filter dev 3/3, test 1/1 (B: 1/3, 0/1); q18 vẫn trượt dù đúng chương"
