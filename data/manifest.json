@@ -1,0 +1,26 @@
+{
+  "page_counting_rule": "Đếm trang PDF (1-based, theo trình xem PDF, không theo số in 'x/204' ở chân trang) có nội dung giảng dạy; loại bìa, mục lục, trang trống, trang chỉ có bài tập/tình huống/tài liệu tham khảo. Trang trích xuất < 200 ký tự bị loại và ghi vào results/ingest_errors.json.",
+  "sources": [
+    {
+      "source_id": "voer-quan-tri-hoc-co-ban",
+      "title": "Giáo trình Quản trị học cơ bản (VOER) — Biên tập bởi: Tiến Trương Chí",
+      "source_path_or_url": "http://voer.edu.vn/c/28562d8b",
+      "local_path": "data/raw/giao-trinh-quan-tri-hoc-3.pdf",
+      "license_or_permission": "Giấy phép: http://creativecommons.org/licenses/by/3.0/ (chép nguyên văn từ trang 'Tham gia đóng góp', PDF trang 204–205, áp dụng cho từng module; trang 206 ghi: 'Các nội dung đểu tuân thủ Giấy phép Creative Commons Attribution (CC-by) 4.0')",
+      "accessed_at": "2026-11-14",
+      "version": "Phiên bản trực tuyến VOER http://voer.edu.vn/c/28562d8b; nguồn phát hành: ĐH Cần Thơ (PDF trang 202); tài liệu không ghi edition/ngày cập nhật",
+      "physical_pages_total": 206,
+      "counted_pages": [[43, 61], [64, 90], [92, 105]],
+      "excluded_pages": {
+        "62": "chỉ có tình huống quản trị (case Xerox), không phải nội dung giảng dạy",
+        "63": "phần cuối tình huống Xerox + câu hỏi tình huống",
+        "91": "trang chỉ có hình (Hình 5.2), trích xuất được 6 ký tự"
+      },
+      "chapters": [
+        {"chapter": 3, "title": "Môi trường quản trị", "pdf_pages": [43, 63], "module_url": "http://www.voer.edu.vn/m/d706e900"},
+        {"chapter": 4, "title": "Thông tin quản trị", "pdf_pages": [64, 81], "module_url": "http://www.voer.edu.vn/m/a381adff"},
+        {"chapter": 5, "title": "Quyết định quản trị", "pdf_pages": [82, 105], "module_url": "http://www.voer.edu.vn/m/dc412acc"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q01", "split": "dev", "type": "truc_tiep",
+    "question": "Khi lạm phát tăng cao thì thu nhập thực tế và sức mua của người dân thay đổi như thế nào?",
+    "expected_answer": "Thu nhập thực tế của người dân giảm đáng kể, dẫn tới giảm sức mua và nhu cầu thực tế của người tiêu dùng.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 47,
+    "evidence_quote": "khi có yếu tốlạm phát tăng cao, thì thu nhập thực tếcủa người dân lại giảm đáng kểvà điều này lại dẫn tới làm giảm sức mua và nhu cầu thực tếcủa người tiêu dùng."
+  },
+  {
+    "id": "q02", "split": "dev", "type": "truc_tiep",
+    "question": "Nhóm đối thủ cạnh tranh của doanh nghiệp gồm những nhóm nào?",
+    "expected_answer": "Ba nhóm: đối thủ cạnh tranh trực tiếp, đối thủ cạnh tranh tiềm ẩn và sản phẩm thay thế.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 55,
+    "evidence_quote": "Trong nhóm đối thủcạnh tranh có thểkểđến ba nhóm: (1) Đối thủcạnh tranh trực tiếp, (2) Đối thủ cạnh tranh tiềm ẩn, và (3) Sản phẩm thay thế."
+  },
+  {
+    "id": "q03", "split": "dev", "type": "dien_dat_lai",
+    "question": "Vì sao một hãng xe hạng sang bán được ít xe hơn vào đầu thập niên 1990 mà lỗi không nằm ở người điều hành?",
+    "expected_answer": "Do suy thoái kéo dài, thuế xa xỉ tăng và quan niệm xã hội thay đổi nên có rất ít người đủ khả năng mua loại xe này; doanh số giảm không phải do lỗi của nhà quản trị.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 44,
+    "evidence_quote": "Doanh sốgiảm sút không phải do lỗi của nhà quản trị, mà là có rất ít người có đủkhảnăng mua được loại xe hơi này."
+  },
+  {
+    "id": "q04", "split": "dev", "type": "dieu_kien",
+    "question": "Trong những điều kiện nào thì người mua có thế mạnh khi thương lượng với doanh nghiệp?",
+    "expected_answer": "Khi lượng mua chiếm tỉ lệ lớn trong hàng bán ra của doanh nghiệp; chuyển sang mua của người khác không tốn kém; người mua đe dọa đáng tin cậy sẽ hội nhập về phía sau; sản phẩm của người bán ít ảnh hưởng đến chất lượng sản phẩm của người mua.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 57,
+    "evidence_quote": "Người mua có thế mạnh nhiều khi họ có các điều kiện sau: - Lượng mua chiếm tỉ lệ lớn trong khối lượng hàng hoá bán ra của doanh nghiệp.",
+    "alternatives": [
+      {"gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 58,
+       "evidence_quote": "- Người mua đưa ra tín hiệu đe doạđáng tin cậy là sẽhội nhập vềphía sau với các bạn hàng cung ứng"}
+    ]
+  },
+  {
+    "id": "q05", "split": "dev", "type": "metadata_filter",
+    "question": "Những yếu tố nào thuộc môi trường bên trong tổ chức?",
+    "context": "Người học đang ôn chương 3 (Môi trường quản trị) nên filter được cung cấp trước.",
+    "filter": {"chapter": 3},
+    "expected_answer": "Các yếu tố về tài chính, nhân sự, cơ sở vật chất và văn hóa tổ chức.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 45,
+    "evidence_quote": "- Các yếu tố thuộc về nhân sự; - Các yếu tố thuộc về cơ sở vật chất; - Các yếu tố thuộc về văn hóa tổ chức.",
+    "alternatives": [
+      {"gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 58,
+       "evidence_quote": "Nhóm này bao gồm các yếu tốvà điều kiện bên trong của doanh nghiệp như: nguồn tài chính, nguồn nhân lực hệthống cơ sởvật chất"}
+    ]
+  },
+  {
+    "id": "q06", "split": "dev", "type": "truc_tiep",
+    "question": "Quá trình thông đạt gồm bao nhiêu thành tố và đó là những thành tố nào?",
+    "expected_answer": "7 thành tố: nguồn (người gởi), thông điệp, mã hóa, kênh, người nhận, giải mã và phản hồi.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 74,
+    "evidence_quote": "Mô hình này chỉra quá trình thông đạt bao gồm 7 thành tố: (1) Nguồn thông đạt (người gởi), (2) Thông điệp, (3) Mã hóa, (4) Kênh, (5) Người nhận, (6) Giải mã, và (7) Phản hồi."
+  },
+  {
+    "id": "q07", "split": "dev", "type": "truc_tiep",
+    "question": "Có những điều kiện nào ảnh hưởng đến việc mã hóa thông điệp?",
+    "expected_answer": "Bốn điều kiện: kỹ năng, quan điểm, kiến thức và yếu tố văn hóa – xã hội.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 75,
+    "evidence_quote": "Có bốn điều kiện ảnh hưởng đến việc mã hóa là kỹnăng, quan điểm, kiến thức và yếu tốvăn hóa – xã hội."
+  },
+  {
+    "id": "q08", "split": "dev", "type": "dien_dat_lai",
+    "question": "Trong 100 nơi cung cấp tin tức cho nhà quản trị, thường chỉ có khoảng bao nhiêu nơi thực sự hữu ích?",
+    "expected_answer": "Khoảng 20–30 nguồn có giá trị.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 69,
+    "evidence_quote": "nếu có 100 nguồn cung cấp thông tin thì thường chỉcó khoảng 20- 30 nguồn có giá trịmà thôi."
+  },
+  {
+    "id": "q09", "split": "dev", "type": "dieu_kien",
+    "question": "Điều gì có thể xảy ra với thông tin sơ cấp nếu không được thu thập kịp thời?",
+    "expected_answer": "Thông tin sơ cấp có thể bị mất luôn.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 64,
+    "evidence_quote": "Đối với thông tin sơ cấp, nhiều khi nếu không thu thập kịp thời thì sẽmất luôn."
+  },
+  {
+    "id": "q10", "split": "dev", "type": "truc_tiep",
+    "question": "Tiến trình ra quyết định do Robbins và Coulter đề xuất gồm bao nhiêu bước?",
+    "expected_answer": "8 bước.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 90,
+    "evidence_quote": "Stephen P. Robbins và Mary Coulter đềxuất tiến trình ra quyết định bao gồm 8 bước"
+  },
+  {
+    "id": "q11", "split": "dev", "type": "dien_dat_lai",
+    "question": "Kỹ thuật ra quyết định nhóm nào cho phép các thành viên góp ý mà không cần có mặt hay gặp mặt nhau?",
+    "expected_answer": "Kỹ thuật Delphi.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 99,
+    "evidence_quote": "Kỹ thuật Delphi Là kỹthuật được sửdụng trong các quyết định tập thể, nó không đòi hỏi sựhiện diện của các thành viên và không bao giờđối mặt nhau"
+  },
+  {
+    "id": "q12", "split": "dev", "type": "dien_dat_lai",
+    "question": "Vì sao một người làm việc nhiều năm chưa chắc đã đánh giá tình huống giỏi hơn người khác?",
+    "expected_answer": "Vì có những người tích lũy kinh nghiệm nhưng khả năng xét đoán không được cải thiện, nên không thể đánh đồng xét đoán với kinh nghiệm.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 102,
+    "evidence_quote": "Tuy nhiên có những người thu được kinh nghiệm mà khảnăng xét đoán không được cải thiện, do vậy không thể đánh đồng xét đoán với kinh nghiệm được."
+  },
+  {
+    "id": "q13", "split": "dev", "type": "dieu_kien",
+    "question": "Khi phải xử lý vấn đề không theo chương trình, kinh nghiệm có thể gây bất lợi gì cho nhà quản trị?",
+    "expected_answer": "Bài học kinh nghiệm cũ có thể không thích hợp với vấn đề mới, dễ dẫn nhà quản trị vào lối mòn thói quen và tính bảo thủ.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 101,
+    "evidence_quote": "Đối với những trường hợp đòi hỏi một sựđáp ứng không theo chương trình, thì kinh nghiệm có thểcó lợi mà cũng bất lợi. Bất lợi chính là ởchỗnhững bài học kinh nghiệm hoàn toàn không thích hợp với vấn đềmới"
+  },
+  {
+    "id": "q14", "split": "dev", "type": "metadata_filter",
+    "question": "Phần nội dung phải thể hiện được những điều gì?",
+    "context": "Người học đang ôn chương 5 (Quyết định quản trị) nên filter được cung cấp trước.",
+    "filter": {"chapter": 5},
+    "expected_answer": "Những việc cần làm, ai làm, làm như thế nào, làm trong bao lâu và kết quả gì cần đạt được.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 88,
+    "evidence_quote": "Nội dung của các quyết định phải thểhiện được những việc cần làm, ai làm, làm như thế nào, làm trong bao lâu, kết quảgì cần đạt được..."
+  },
+  {
+    "id": "q15", "split": "dev", "type": "metadata_filter",
+    "question": "Những chức năng chủ yếu cần thực hiện được là gì?",
+    "context": "Người học đang ôn chương 5 (Quyết định quản trị) nên filter được cung cấp trước.",
+    "filter": {"chapter": 5},
+    "expected_answer": "Lựa chọn phương án tối ưu, định hướng, bảo đảm các yếu tố thực hiện, phối hợp hành động, động viên/cưỡng bức, bảo đảm tính thống nhất, tính hiệu quả, tính hiệu lực và bảo mật.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 83,
+    "evidence_quote": "Quyết định là trái tim của mọi hoạt động quản trịnó cần phải thực hiện được những chức năng chủ yếu sau: - Lựa chọn phương án tối ưu. - Định hướng."
+  },
+  {
+    "id": "q16", "split": "test", "type": "dien_dat_lai",
+    "question": "Một công ty điện thoại tính giá cao vào giờ hành chính và giá rẻ vào các giờ khác để giảm tải thiết bị. Cách đối phó với bất trắc môi trường này gọi là gì?",
+    "expected_answer": "San bằng – san đều ảnh hưởng của môi trường.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 59,
+    "evidence_quote": "(2) San bằng: Tức là san đều ảnh hưởng của môi trường."
+  },
+  {
+    "id": "q17", "split": "test", "type": "truc_tiep",
+    "question": "Theo quan điểm quản trị hiện đại, thông tin được xem là nguồn lực thứ mấy của tổ chức?",
+    "expected_answer": "Nguồn lực thứ tư.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 65,
+    "evidence_quote": "theo quan điểm quản trịhiện đại thông tin được xem như là một nguồn lực thứ tư của một tổ chức.",
+    "alternatives": [
+      {"gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 80,
+       "evidence_quote": "thông tin được nhiều người xem như là một nguồn lực thứtư trong quản lý."}
+    ]
+  },
+  {
+    "id": "q18", "split": "test", "type": "metadata_filter",
+    "question": "Những hình thức chủ yếu thường được sử dụng trong quản trị là gì?",
+    "context": "Người học đang ôn chương 4 (Thông tin quản trị) nên filter được cung cấp trước.",
+    "filter": {"chapter": 4},
+    "expected_answer": "Bằng lời nói, chữ viết, ký ám hiệu, văn bản, điện thoại, thư tín…",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 74,
+    "evidence_quote": "Những hình thức thông tin chủyếu trong quản trịthường là bằng lời nói, chữviết, ký ám hiệu, văn bản, điện thoại, thư tín"
+  },
+  {
+    "id": "q19", "split": "test", "type": "truc_tiep",
+    "question": "Trong ví dụ mua máy tính, phương án nào được chọn và đạt tổng bao nhiêu điểm?",
+    "expected_answer": "Máy Acer TravelMate 290, đạt 272 điểm.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 94,
+    "evidence_quote": "Chọn mua máy Acer TravelMate 290 vì phương án này có điểm cao nhất là 272 điểm."
+  },
+  {
+    "id": "q20", "split": "test", "type": "dieu_kien",
+    "question": "Trong những trường hợp nào nên sử dụng quyết định tập thể?",
+    "expected_answer": "Khi có đủ thời gian; mỗi thành viên có đủ thông tin; các thành viên cam kết theo đuổi mục tiêu; quyết định không lập trình trước và có nhiều bất trắc; muốn huấn luyện cấp dưới ra quyết định.",
+    "gold_source_id": "voer-quan-tri-hoc-co-ban", "gold_page": 98,
+    "evidence_quote": "Các trường hợp có thểsửdụng quyết định tập thể là: - Có đủ thời gian để sử dụng phương pháp này."
+  }
+]
